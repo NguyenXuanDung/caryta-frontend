@@ -30,7 +30,7 @@ class Container extends React.Component {
 		switch (this.state.selectedPage) {
 			case "MAIN": return <Content/>;
 			case "ABOUT": return <About/>;
-			case "CONTACT": return <About/>;
+			default: return <About/>;
 		}
 	}
 }
