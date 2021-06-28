@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/header.css';
+import '../../styles/mainpage/header.css';
 import Logo from './logo';
 import Navbar from './navbar';
 
@@ -9,7 +9,7 @@ class Header extends React.Component {
 		return <div className="placeholder">
 			<div className="parallax-window">
 				<div className="tm-header">
-					<div className="row tm-header-inner">
+					<div className="header-row tm-header-inner">
 						<Logo/>
 						<Navbar/>
 					</div>

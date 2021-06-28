@@ -1,0 +1,34 @@
+.tm-gallery {
+    margin-bottom: 80px;
+}
+
+.tm-gallery-page {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .tm-gallery-page {
+        max-width: 560px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .tm-gallery-page {
+        max-width: 840px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .tm-gallery-page {
+        max-width: 1120px;
+    }
+}
