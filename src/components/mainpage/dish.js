@@ -7,7 +7,7 @@ class Dish extends React.Component {
 	render() {
 		return <article className="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 			<figure>
-				<img src={nuong} className="img-fluid tm-gallery-img"/>
+				<img src={nuong} alt="dish" className="img-fluid tm-gallery-img"/>
 				<figcaption>
 					<h4 className="tm-gallery-title">Thịt nướng phô mai</h4>
 					<p className="tm-gallery-description">Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon

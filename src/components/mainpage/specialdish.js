@@ -9,7 +9,7 @@ class SpecialDish extends React.Component {
 			<div className="row">
 				<div className="col-md-6">
 					<figure className="tm-description-figure">
-						<img src={lau} alt="Image" className="img-fluid"/>
+						<img src={lau} alt="special" className="img-fluid"/>
 					</figure>
 				</div>
 				<div className="col-md-6">
