@@ -29,7 +29,6 @@
     padding-bottom: 10px;
 }
 
-.tm-nav-link.active,
-.tm-nav-link:hover {
+.tm-nav-link.active {
     border-bottom: 1px solid white;
 }

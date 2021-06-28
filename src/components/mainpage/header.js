@@ -11,11 +11,18 @@ class Header extends React.Component {
 				<div className="tm-header">
 					<div className="header-row tm-header-inner">
 						<Logo/>
-						<Navbar/>
+						<Navbar
+							handleNavClick = {this.handleNavClick}
+							selectedPage={this.props.selectedPage}
+						/>
 					</div>
 				</div>
 			</div>
 		</div>;
+	}
+
+	handleNavClick = (navName) => {
+		this.props.handleNavClick(navName);
 	}
 }
 
