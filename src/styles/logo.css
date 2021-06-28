@@ -1,0 +1,19 @@
+.tm-site-logo {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tm-site-text-box {
+    display: inline-block;
+}
+
+.tm-site-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.tm-site-description {
+    font-size: 1.1rem;
+    font-weight: 400;
+}

@@ -1,0 +1,35 @@
+.tm-nav {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.tm-nav-ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tm-nav-li {
+    list-style: none;
+    display: block;
+    margin-bottom: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+@media (max-width: 991px) {
+    .tm-nav-li {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.tm-nav-link {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.tm-nav-link.active,
+.tm-nav-link:hover {
+    border-bottom: 1px solid white;
+}
