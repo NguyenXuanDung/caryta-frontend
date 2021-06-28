@@ -2,7 +2,6 @@
   "name": "caryta-frontend",
   "version": "0.1.0",
   "private": true,
-//  "homepage": "https://NguyenXuanDung.github.io/caryta-frontend",
   "homepage": "https://caryta.netlify.app",
   "dependencies": {
     "axios": "^0.21.1",

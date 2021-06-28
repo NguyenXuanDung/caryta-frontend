@@ -5,6 +5,7 @@ import './styles/index.css';
 class Dung extends React.Component {
 
 		render() {
+			//  "homepage": "https://NguyenXuanDung.github.io/caryta-frontend",
 				return (<div>hello Caryta</div>);
 		}
 }
