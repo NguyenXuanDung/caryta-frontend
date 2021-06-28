@@ -1,5 +1,4 @@
 .tm-section,
-.tm-container-inner,
 .tm-container-inner-2 {
     margin-left: auto;
     margin-right: auto;
@@ -8,7 +7,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .tm-section,
-    .tm-container-inner,
     .tm-container-inner-2 {
         max-width: 840px;
     }
@@ -18,10 +16,6 @@
 @media (min-width: 992px) {
     .tm-gallery-page,
     .tm-section {
-        max-width: 1120px;
-    }
-
-    .tm-container-inner {
         max-width: 1120px;
     }
 

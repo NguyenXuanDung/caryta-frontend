@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://caryta.netlify.app",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "axios": "^0.21.1",
     "formik": "^2.1.7",
     "history": "^4.7.2",
