@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ffbe169-b528-49dc-b71d-16903481ca43" name="Default" comment="optimize to start point">
-      <change afterPath="$PROJECT_DIR$/src/components/mainpage/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainpage/dish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainpage/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainpage/listbooth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainpage/specialdish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/mainpage/welcome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/mainpage/dish.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/mainpage/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/mainpage/listbooth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/mainpage/specialdish.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/mainpage/welcome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mainpage/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mainpage/logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mainpage/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainpage/listbooth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/listbooth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,18 +18,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
               <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/mainpage/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -125,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/mainpage/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listbooth.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/mainpage/listbooth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/components/mainpage/welcome.js" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/welcome.css" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/listbooth.css" />
-        <option value="$PROJECT_DIR$/src/components/mainpage/listbooth.js" />
         <option value="$PROJECT_DIR$/src/components/mainpage/content.js" />
         <option value="$PROJECT_DIR$/src/components/mainpage/dish.js" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/dish.css" />
@@ -185,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/components/mainpage/gallery.js" />
         <option value="$PROJECT_DIR$/src/components/mainpage/header.js" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/header.css" />
+        <option value="$PROJECT_DIR$/src/components/mainpage/listbooth.js" />
       </list>
     </option>
   </component>
@@ -354,7 +335,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624844021225</updated>
-      <workItem from="1624844023782" duration="12507000" />
+      <workItem from="1624844023782" duration="12631000" />
     </task>
     <task id="LOCAL-00001" summary="optimize to start point">
       <created>1624844229658</created>
@@ -367,7 +348,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12507000" />
+    <option name="totallyTimeSpent" value="12631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="2560" height="1350" extended-state="6" />
@@ -384,10 +365,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.29289705" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5355148" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19142176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19142176" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,16 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mainpage/listbooth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/mainpage/welcome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -613,8 +584,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/mainpage/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/mainpage/listbooth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
