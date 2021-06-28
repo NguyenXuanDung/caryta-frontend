@@ -4,10 +4,6 @@ import './styles/index.css';
 
 class Dung extends React.Component {
 
-		constructor(props) {
-				super(props);
-		}
-
 		render() {
 				return (<div>hello Caryta</div>);
 		}
