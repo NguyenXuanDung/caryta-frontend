@@ -29,10 +29,10 @@ class Contact extends React.Component {
 								<a href="https://fb.com/templatemo" className="tm-social-link">
 									<i className="fab fa-facebook tm-social-icon"/>
 								</a>
-								<a href="#" className="tm-social-link">
+								<a href="" className="tm-social-link">
 									<i className="fab fa-twitter tm-social-icon"/>
 								</a>
-								<a href="#" className="tm-social-link">
+								<a href="" className="tm-social-link">
 									<i className="fab fa-instagram tm-social-icon" />
 								</a>
 							</div>
