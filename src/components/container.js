@@ -3,6 +3,7 @@ import '../styles/container.css';
 import Header from './mainpage/header';
 import Content from './mainpage/content';
 import About from './about/about';
+import Contact from './contact/contact';
 
 class Container extends React.Component {
 
@@ -30,7 +31,7 @@ class Container extends React.Component {
 		switch (this.state.selectedPage) {
 			case "MAIN": return <Content/>;
 			case "ABOUT": return <About/>;
-			default: return <About/>;
+			default: return <Contact/>;
 		}
 	}
 }

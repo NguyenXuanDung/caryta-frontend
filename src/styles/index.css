@@ -22,14 +22,18 @@ html {
     box-sizing: inherit;
 }
 
-.tm-container-inner {
+.tm-container-inner,
+.tm-container-inner-2 {
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .tm-container-inner{
+    .tm-container-inner,
+    .tm-container-inner-2 {
         max-width: 840px;
     }
 }
@@ -38,6 +42,10 @@ html {
 @media (min-width: 992px) {
     .tm-container-inner {
         max-width: 1120px;
+    }
+
+    .tm-container-inner-2 {
+        max-width: 900px;
     }
 }
 

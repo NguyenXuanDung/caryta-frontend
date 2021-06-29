@@ -1,5 +1,5 @@
 import React from 'react';
-import '@fortawesome/fontawesome-free/js/all.js'
+import '@fortawesome/fontawesome-free/js/all.js';
 import '../../styles/about/person.css';
 import person from '../../images/nguyen.jpeg';
 
