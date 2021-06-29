@@ -11,8 +11,13 @@ class Content extends React.Component {
 	render() {
 		return <main>
 			<Welcome/>
-			<ListBooth handleBoothClick = {this.handleBoothClick}/>
-			<Gallery selectedBooth={this.state.selectedBooth}/>
+			<ListBooth
+				handleBoothClick = {this.handleBoothClick}
+				selectedBooth={this.state.selectedBooth}
+			/>
+			<Gallery
+				selectedBooth={this.state.selectedBooth}
+			/>
 		</main>;
 	}
 
