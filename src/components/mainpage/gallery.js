@@ -7,7 +7,13 @@ class Gallery extends React.Component {
 
 	render() {
 		return <div className="row tm-gallery">
-			<div className="tm-gallery-page">
+			{this.getDishes()}
+		</div>;
+	}
+
+	getDishes = () => {
+		switch (this.props.selectedBooth) {
+			case "XIEN": return <div className="tm-gallery-page">
 				<Dish/>
 				<Dish/>
 				<Dish/>
@@ -21,8 +27,21 @@ class Gallery extends React.Component {
 				<Dish/>
 				<Dish/>
 				<SpecialDish/>
-			</div>
-		</div>;
+			</div>;
+			case "GOI": return <div className="tm-gallery-page">
+				<Dish/>
+				<Dish/>
+				<Dish/>
+				<Dish/>
+				<SpecialDish/>
+			</div>;
+			default: return <div className="tm-gallery-page">
+				<Dish/>
+				<Dish/>
+				<Dish/>
+				<SpecialDish/>
+			</div>;
+		}
 	}
 }
 
