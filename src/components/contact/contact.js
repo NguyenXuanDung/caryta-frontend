@@ -45,8 +45,11 @@ class Contact extends React.Component {
 					<div className="col-12">
 						<div className="tm-map">
 							<iframe
+								title="Map of Caryta"
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d958.6132170641512!2d108.21763640342319!3d16.041972602369608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421919cbbf3f77%3A0x4000b52b2bbf49a2!2sCaryta%20Apartment!5e0!3m2!1sen!2s!4v1624949490707!5m2!1sen!2s"
-								frameBorder="0" allowFullScreen=""/>
+								frameBorder="0"
+								allowFullScreen=""
+							/>
 						</div>
 					</div>
 				</div>
