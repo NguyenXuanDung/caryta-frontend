@@ -23,7 +23,7 @@
 }
 
 .tm-header-inner {
-    padding: 40px 50px;
+    padding: 30px 50px;
 }
 
 @media (max-width: 991px) {
@@ -37,5 +37,5 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background-color: orange;
+    background-color: #266c78;
 }

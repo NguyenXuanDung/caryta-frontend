@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {lazy, Suspense } from 'react';
 import '../../styles/mainpage/gallery.css';
-import Dish from './dish';
 import SpecialDish from './specialdish';
+import { XIEN } from '../../consts/xien';
+import { GOI } from '../../consts/goi';
+import { DRINK} from '../../consts/drink';
+const Dish = lazy(() => import('./dish'));
 
 class Gallery extends React.Component {
 
@@ -14,84 +17,44 @@ class Gallery extends React.Component {
 	getDishes = () => {
 		switch (this.props.selectedBooth) {
 			case "XIEN": return <div className="tm-gallery-page">
-				<Dish
-					image="nuong-01.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="nuong-01.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="nuong-01.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="nuong-01.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<SpecialDish/>
+				{XIEN.map((dish, index) => {
+					return <Suspense fallback = {<div>loading...</div>}>
+						<Dish
+							image = {dish.image}
+							title = {dish.title}
+							description = {dish.description}
+							price = {dish.price}
+							key = {index}
+						/>
+					</Suspense>;
+				})}
 			</div>;
 			case "GOI": return <div className="tm-gallery-page">
-				<Dish
-					image="met.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="met.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="met.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="met.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
+				{GOI.map((dish, index) => {
+					return <Suspense fallback = {<div>loading...</div>}>
+						<Dish
+							image = {dish.image}
+							title = {dish.title}
+							description = {dish.description}
+							price = {dish.price}
+							key = {index}
+						/>
+					</Suspense>;
+				})}
 				<SpecialDish/>
 			</div>;
 			default: return <div className="tm-gallery-page">
-				<Dish
-					image="drink.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="drink.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="drink.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
-				<Dish
-					image="drink.jpeg"
-					title="Thịt nướng phô mai"
-					description="Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt"
-					price="15k/Xiên"
-				/>
+				{DRINK.map((dish, index) => {
+					return <Suspense fallback = {<div>loading...</div>}>
+						<Dish
+							image = {dish.image}
+							title = {dish.title}
+							description = {dish.description}
+							price = {dish.price}
+							key = {index}
+						/>
+					</Suspense>;
+				})}
 				<SpecialDish/>
 			</div>;
 		}
