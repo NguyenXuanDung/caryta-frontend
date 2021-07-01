@@ -8,6 +8,7 @@ class Dung extends React.Component {
 
 		render() {
 			//  "homepage": "https://NguyenXuanDung.github.io/caryta-frontend",
+			//  "homepage": "https://caryta.netlify.app",
 				return (
 					<div>
 						<Helmet>
