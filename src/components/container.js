@@ -1,9 +1,11 @@
 import React from 'react';
 import '../styles/container.css';
+import '../styles/call.css';
 import Header from './mainpage/header';
 import Content from './mainpage/content';
 import About from './about/about';
 import Contact from './contact/contact';
+import '@fortawesome/fontawesome-free/js/all.js';
 
 class Container extends React.Component {
 
@@ -18,6 +20,7 @@ class Container extends React.Component {
 				selectedPage={this.state.selectedPage}
 			/>
 			{this.getBody()}
+			<a className="phone" href="tel:0901144334"><i className="fas fa-phone"></i></a>
 		</div>;
 	}
 
