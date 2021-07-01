@@ -2,7 +2,7 @@
   "name": "caryta-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NguyenXuanDung.github.io/caryta-frontend",
+  "homepage": "caryta.vn",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "axios": "^0.21.1",
