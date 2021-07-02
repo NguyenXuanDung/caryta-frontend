@@ -1,12 +1,12 @@
 .phone {
     background-color: green;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     position: fixed;
     bottom: 10px;
-    right: 24px;
-    font-size: 23px;
+    left: 24px;
+    font-size: 31px;
     color: white;
     border-radius: 50%;
     padding: 9px 10px;
