@@ -6,6 +6,7 @@ import Content from './mainpage/content';
 import About from './about/about';
 import Contact from './contact/contact';
 import '@fortawesome/fontawesome-free/js/all.js';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 class Container extends React.Component {
 
@@ -21,6 +22,10 @@ class Container extends React.Component {
 			/>
 			{this.getBody()}
 			<a className="phone" href="tel:0901144334"><i className="fas fa-phone"></i></a>
+			<MessengerCustomerChat
+				pageId="102457811709861"
+				appId="978573592892252"
+			/>
 		</div>;
 	}
 
