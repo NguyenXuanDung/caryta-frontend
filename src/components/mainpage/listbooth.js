@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/mainpage/listbooth.css';
+import { BOOTH } from "../../consts/booth"
 
 class ListBooth extends React.Component {
 
@@ -8,33 +9,18 @@ class ListBooth extends React.Component {
 		return <div className="tm-paging-links">
 			<nav>
 				<ul>
-					<li className="tm-paging-item">
-						<a
-							href=""
-							className={["tm-paging-link", selectedPage === "XIEN" ? "active" : ""].join(" ")}
-							onClick={(e) => this.handleBoothClick(e, "XIEN")}
-						>
-							Xiên Nướng
-						</a>
-					</li>
-					<li className="tm-paging-item">
-						<a
-							href=""
-							className={["tm-paging-link", selectedPage === "GOI" ? "active" : ""].join(" ")}
-							onClick={(e) => this.handleBoothClick(e, "GOI")}
-						>
-							Gỏi
-						</a>
-					</li>
-					<li className="tm-paging-item">
-						<a
-							href=""
-							className={["tm-paging-link", selectedPage === "DO_UONG" ? "active" : ""].join(" ")}
-							onClick={(e) => this.handleBoothClick(e, "DO_UONG")}
-						>
-							Đồ uống
-						</a>
-					</li>
+					{BOOTH.map(booth => {
+						return <li className="tm-paging-item">
+							<a
+								href=""
+								className={["tm-paging-link", selectedPage === booth.id ? "active" : ""].join(" ")}
+								onClick={(e) => this.handleBoothClick(e, booth.id)}
+								id={booth.id}
+							>
+								{booth.name}
+							</a>
+						</li>;
+					})}
 				</ul>
 			</nav>
 		</div>;

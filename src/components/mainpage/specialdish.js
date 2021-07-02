@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/mainpage/specialdish.css';
-import lau from '../../images/gallery/lau-01.jpeg';
+import chien from '../../images/gallery/dochien/chien01.png';
 
 class SpecialDish extends React.Component {
 
@@ -9,7 +9,7 @@ class SpecialDish extends React.Component {
 			<div className="row">
 				<div className="col-md-6">
 					<figure className="tm-description-figure">
-						<img src={lau} alt="special" className="img-fluid"/>
+						<img src={chien} alt="special" className="img-fluid"/>
 					</figure>
 				</div>
 				<div className="col-md-6">

@@ -1,9 +1,11 @@
 import React, {lazy, Suspense } from 'react';
 import '../../styles/mainpage/gallery.css';
 import SpecialDish from './specialdish';
-import { XIEN } from '../../consts/xien';
+import { DO_NUONG } from '../../consts/donuong';
 import { GOI } from '../../consts/goi';
-import { DRINK} from '../../consts/drink';
+import { DO_CHIEN } from '../../consts/dochien';
+import { DO_UONG } from '../../consts/douong';
+import { PHA_LAU } from '../../consts/phalau';
 const Dish = lazy(() => import('./dish'));
 
 class Gallery extends React.Component {
@@ -15,49 +17,28 @@ class Gallery extends React.Component {
 	}
 
 	getDishes = () => {
+		let dishes;
 		switch (this.props.selectedBooth) {
-			case "XIEN": return <div className="tm-gallery-page">
-				{XIEN.map((dish, index) => {
-					return <Suspense fallback = {<div>loading...</div>}>
-						<Dish
-							image = {dish.image}
-							title = {dish.title}
-							description = {dish.description}
-							price = {dish.price}
-							key = {index}
-						/>
-					</Suspense>;
-				})}
-			</div>;
-			case "GOI": return <div className="tm-gallery-page">
-				{GOI.map((dish, index) => {
-					return <Suspense fallback = {<div>loading...</div>}>
-						<Dish
-							image = {dish.image}
-							title = {dish.title}
-							description = {dish.description}
-							price = {dish.price}
-							key = {index}
-						/>
-					</Suspense>;
-				})}
-				<SpecialDish/>
-			</div>;
-			default: return <div className="tm-gallery-page">
-				{DRINK.map((dish, index) => {
-					return <Suspense fallback = {<div>loading...</div>}>
-						<Dish
-							image = {dish.image}
-							title = {dish.title}
-							description = {dish.description}
-							price = {dish.price}
-							key = {index}
-						/>
-					</Suspense>;
-				})}
-				<SpecialDish/>
-			</div>;
+			case "DO_NUONG": dishes = DO_NUONG; break;
+			case "DO_CHIEN": dishes = DO_CHIEN; break;
+			case "DO_UONG": dishes = DO_UONG; break;
+			case "GOI": dishes = GOI; break;
+			default: dishes = PHA_LAU;
+
 		}
+		return <div className="tm-gallery-page">
+			{dishes.map((dish, index) => {
+				return <Suspense fallback = {<div>loading...</div>}>
+					<Dish
+						image = {dish.image}
+						title = {dish.title}
+						description = {dish.description}
+						price = {dish.price}
+						key = {index}
+					/>
+				</Suspense>;
+			})}
+		</div>;
 	}
 }
 

@@ -5,7 +5,7 @@ import Gallery from './gallery';
 class Content extends React.Component {
 
 	state = {
-		selectedBooth: "XIEN"
+		selectedBooth: "DO_NUONG"
 	}
 
 	render() {
