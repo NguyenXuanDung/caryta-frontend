@@ -19,8 +19,8 @@ class Contact extends React.Component {
 							<address>
 								43-45-47 Lê Thanh Nghị
 							</address>
-							<a href="tel:0901144334" className="tm-contact-link">
-								<i className="fa fa-phone tm-contact-icon"/>0901144334
+							<a href="tel:0815999951" className="tm-contact-link">
+								<i className="fa fa-phone tm-contact-icon"/>0815999951
 							</a>
 							<a href="mailto:info@company.co" className="tm-contact-link">
 								<i className="fas fa-envelope tm-contact-icon"/>Caryta45studio@gmail.com
