@@ -6,6 +6,7 @@ import { GOI } from '../../consts/goi';
 import { DO_CHIEN } from '../../consts/dochien';
 import { DO_UONG } from '../../consts/douong';
 import { PHA_LAU } from '../../consts/phalau';
+import { SINH_TO } from '../../consts/sinhto';
 const Dish = lazy(() => import('./dish'));
 
 class Gallery extends React.Component {
@@ -23,6 +24,7 @@ class Gallery extends React.Component {
 			case "DO_CHIEN": dishes = DO_CHIEN; break;
 			case "DO_UONG": dishes = DO_UONG; break;
 			case "GOI": dishes = GOI; break;
+			case "SINH_TO": dishes = SINH_TO; break;
 			default: dishes = PHA_LAU;
 
 		}

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/mainpage/specialdish.css';
-import chien from '../../images/gallery/dochien/chien01.png';
+import chien from '../../images/gallery/dochien/chien03.jpeg';
 
 class SpecialDish extends React.Component {
 

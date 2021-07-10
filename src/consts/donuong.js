@@ -16,5 +16,11 @@ export const DO_NUONG = [
 		title: "Đồ nướng",
 		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
 		price: "15k/Xiên"
+	},
+	{
+		image: "donuong/nuong03.JPG",
+		title: "Thịt nướng phô mai",
+		description: "T",
+		price: "15k/Xiên"
 	}
 ];

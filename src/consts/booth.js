@@ -12,6 +12,10 @@ export const BOOTH = [
 		name: "Đồ uống"
 	},
 	{
+		id: "SINH_TO",
+		name: "Sinh tố"
+	},
+	{
 		id: "GOI",
 		name: "Gỏi"
 	},
