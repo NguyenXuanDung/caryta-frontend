@@ -8,18 +8,18 @@
     min-height: 650px;
     background: transparent;
     position: relative;
-    background-image: url("../../images/caryta-02.jpeg");
+    background-image: url("../../images/bia.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .tm-header {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    color: white;
-    z-index: 1000;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*color: white;*/
+    /*z-index: 1000;*/
 }
 
 .tm-header-inner {

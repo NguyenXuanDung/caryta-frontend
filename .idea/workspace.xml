@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ffbe169-b528-49dc-b71d-16903481ca43" name="Default" comment="optimize to start point">
-      <change afterPath="$PROJECT_DIR$/src/consts/sinhto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainpage/specialdish.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/specialdish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts/booth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/booth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts/dochien.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/dochien.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts/donuong.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/donuong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainpage/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainpage/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/consts/douong.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/douong.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/dochien/chien01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/dochien/chien02.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/dochien/chien03.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong05.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong09.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong10.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong13.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong15.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong21.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong01.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong02.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong04.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong06.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong07.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/douong/douong07.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong08.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/douong/douong08.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong11.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gallery/douong/douong11.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong14.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong17.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong18.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong19.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gallery/douong/douong20.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/mainpage/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/mainpage/header.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +46,7 @@
       <file leaf-file-name="donuong.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/consts/donuong.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="462">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
@@ -61,32 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="douong.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="douong.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/consts/douong.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="-43">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sinhto.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sinhto.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/consts/sinhto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="79" column="3" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dish.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/mainpage/dish.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="484">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -103,7 +91,7 @@
       <file leaf-file-name="gallery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/mainpage/gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="396">
               <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
@@ -130,11 +118,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/mainpage/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="6" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/mainpage/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.row</find>
       <find>parallax-window</find>
       <find>image</find>
       <find>active</find>
@@ -164,13 +169,14 @@
       <find>chien01</find>
       <find>chien</find>
       <find>hoành thánh</find>
+      <find>caryta</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/components</dir>
       <dir>$PROJECT_DIR$/src/styles</dir>
       <dir>$PROJECT_DIR$/src/consts</dir>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/public</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -191,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/styles/mainpage/listbooth.css" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/dish.css" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/gallery.css" />
-        <option value="$PROJECT_DIR$/src/components/mainpage/header.js" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/navbar.css" />
         <option value="$PROJECT_DIR$/src/styles/mainpage/about.css" />
         <option value="$PROJECT_DIR$/src/components/mainpage/about.js" />
@@ -207,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/styles/mainpage/logo.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/mainpage/logo.js" />
-        <option value="$PROJECT_DIR$/src/styles/mainpage/header.css" />
         <option value="$PROJECT_DIR$/src/consts/drink.js" />
         <option value="$PROJECT_DIR$/src/components/mainpage/dish.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -224,8 +228,10 @@
         <option value="$PROJECT_DIR$/src/consts/donuong.js" />
         <option value="$PROJECT_DIR$/src/components/mainpage/gallery.js" />
         <option value="$PROJECT_DIR$/src/consts/booth.js" />
-        <option value="$PROJECT_DIR$/src/consts/douong.js" />
         <option value="$PROJECT_DIR$/src/consts/sinhto.js" />
+        <option value="$PROJECT_DIR$/src/consts/douong.js" />
+        <option value="$PROJECT_DIR$/src/components/mainpage/header.js" />
+        <option value="$PROJECT_DIR$/src/styles/mainpage/header.css" />
       </list>
     </option>
   </component>
@@ -238,27 +244,25 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="972" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="caryta-frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="caryta-frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caryta-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="caryta-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="caryta-frontend" type="b2602c69:ProjectViewProjectNode" />
@@ -288,9 +292,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +397,8 @@
       <workItem from="1625458661205" duration="33000" />
       <workItem from="1625476883944" duration="726000" />
       <workItem from="1625883593686" duration="537000" />
-      <workItem from="1625884563362" duration="4976000" />
+      <workItem from="1625884563362" duration="6730000" />
+      <workItem from="1625903573469" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="optimize to start point">
       <created>1624844229658</created>
@@ -409,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64159000" />
+    <option name="totallyTimeSpent" value="67360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
@@ -426,10 +428,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32485548" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2531792" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17704518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17887668" />
       <window_info anchor="right" id="Database" order="6" weight="0.32962668" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -446,20 +448,20 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Gerrit" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17704518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" weight="0.32962668" />
@@ -467,10 +469,10 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32485548" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -705,24 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/mainpage/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/mainpage/logo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mainpage/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -791,7 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/mainpage/dish.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="418">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -808,14 +796,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/consts/donuong.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="462">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/mainpage/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="396">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
@@ -851,17 +839,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/consts/douong.js">
+    <entry file="file://$PROJECT_DIR$/src/consts/sinhto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="484">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/consts/sinhto.js">
+    <entry file="file://$PROJECT_DIR$/src/components/mainpage/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="79" column="3" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
+        <state relative-caret-position="330">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/mainpage/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="6" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consts/douong.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>

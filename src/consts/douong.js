@@ -1,86 +1,44 @@
 export const DO_UONG = [
 	{
-		image: "douong/douong01.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
-		image: "douong/douong02.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
 		image: "douong/douong03.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		title: "Trà sữa truyền thống full thạch",
+		description: "",
+		price: "30k"
 	},
 	{
-		image: "douong/douong04.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		image: "douong/douong04.jpeg",
+		title: "Rau má nguyên chất",
+		description: "",
+		price: "Nhỏ: 18k, lớn: 22k "
 	},
 	{
-		image: "douong/douong06.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		image: "douong/douong05.jpg",
+		title: "Rau má đậu xanh sữa dừa",
+		description: "",
+		price: "Nhỏ: 25k, lớn: 30k "
 	},
 	{
-		image: "douong/douong07.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		image: "douong/douong07.jpg",
+		title: "Trà chanh Namon",
+		description: "",
+		price: "20k"
 	},
 	{
-		image: "douong/douong08.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		image: "douong/douong08.jpg",
+		title: "Sữa lắc đậu xanh",
+		description: "",
+		price: "35k"
 	},
 	{
-		image: "douong/douong11.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		image: "douong/douong10.jpg",
+		title: "Trà bưởi hồng",
+		description: "",
+		price: "30k"
 	},
 	{
-		image: "douong/douong12.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
-		image: "douong/douong14.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
-		image: "douong/douong17.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
-		image: "douong/douong18.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
-		image: "douong/douong19.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
-	},
-	{
-		image: "douong/douong20.JPG",
-		title: "Đồ nướng",
-		description: "Thịt nướng phô mai, thành phần gồm phô mai và thịt, món này ngon tuyệt",
-		price: "15k/Xiên"
+		image: "douong/douong11.jpg",
+		title: "Trà nhiệt đới",
+		description: "",
+		price: "25k"
 	}
 ];

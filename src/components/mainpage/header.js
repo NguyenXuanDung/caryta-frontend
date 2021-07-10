@@ -7,15 +7,14 @@ class Header extends React.Component {
 
 	render() {
 		return <div className="placeholder">
-			<div className="parallax-window">
-				<div className="tm-header">
-					<div className="header-row tm-header-inner">
-						<Logo/>
-						<Navbar
-							handleNavClick = {this.handleNavClick}
-							selectedPage={this.props.selectedPage}
-						/>
-					</div>
+			<div className="parallax-window"></div>
+			<div className="tm-header">
+				<div className="header-row tm-header-inner">
+					<Logo/>
+					<Navbar
+						handleNavClick = {this.handleNavClick}
+						selectedPage={this.props.selectedPage}
+					/>
 				</div>
 			</div>
 		</div>;
