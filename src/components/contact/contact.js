@@ -22,8 +22,8 @@ class Contact extends React.Component {
 							<a href="tel:0815999951" className="tm-contact-link">
 								<i className="fa fa-phone tm-contact-icon"/>0815999951
 							</a>
-							<a href="mailto:info@company.co" className="tm-contact-link">
-								<i className="fas fa-envelope tm-contact-icon"/>Caryta45studio@gmail.com
+							<a href="mailto:Carytastudio68@gmail.com" className="tm-contact-link">
+								<i className="fas fa-envelope tm-contact-icon"/>Carytastudio68@gmail.com
 							</a>
 							<div className="tm-contact-social">
 								<a href="https://fb.com/templatemo" className="tm-social-link">
