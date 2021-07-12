@@ -10,9 +10,9 @@ class Person extends React.Component {
 			<figure className="tm-person">
 				<img src={person} alt="person" className="img-fluid tm-person-img"/>
 				<figcaption className="tm-person-description">
-					<h4 className="tm-person-name">Nguyễn Hoàng Nguyên</h4>
+					<h4 className="tm-person-name">Trần Hoàng Nguyên</h4>
 					<p className="tm-person-title">Founder and CEO</p>
-					<p className="tm-person-about">Khi cuộc đời cho bạn cả trăm  lý do để khóc, hãy cho đời thấy bạn có cả ngàn lý do để cười... </p>
+					<p className="tm-person-about">Ta không cầu xin cho gánh nặng sẽ nhẹ hơn. Nhưng cho đôi vai hãy vững vàng hơn... </p>
 					<div>
 						<a href="https://fb.com" className="tm-social-link">
 							<i className="fab fa-facebook tm-social-icon"></i>
