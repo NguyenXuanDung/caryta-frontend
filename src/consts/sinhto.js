@@ -6,12 +6,6 @@ export const SINH_TO = [
 		price: "30k"
 	},
 	{
-		image: "sinhto/sinhto02.png",
-		title: "Sinh tố cam",
-		description: "",
-		price: "25k"
-	},
-	{
 		image: "sinhto/sinhto03.png",
 		title: "Sinh tố chanh",
 		description: "",
@@ -48,18 +42,6 @@ export const SINH_TO = [
 		price: "25k"
 	},
 	{
-		image: "sinhto/sinhto09.png",
-		title: "Có lắc",
-		description: "",
-		price: "15k"
-	},
-	{
-		image: "sinhto/sinhto10.png",
-		title: "Xoài lắc",
-		description: "",
-		price: "15k"
-	},
-	{
 		image: "sinhto/sinhto11.JPG",
 		title: "Cóc lắc",
 		description: "",
@@ -88,6 +70,42 @@ export const SINH_TO = [
 		title: "Sinh tố mít",
 		description: "",
 		price: "25k"
+	},
+	{
+		image: "sinhto/sinhto17.png",
+		title: "Sinh tố cà chua",
+		description: "",
+		price: "25k"
+	},
+	{
+		image: "sinhto/sinhto18.png",
+		title: "Sinh tố đậu đỏ",
+		description: "",
+		price: "25k"
+	},
+	{
+		image: "sinhto/sinhto19.png",
+		title: "Sữa chua ngũ cốc trái cây ",
+		description: "",
+		price: "35k"
+	},
+	{
+		image: "sinhto/sinhto09.png",
+		title: "Dâu tây lắc",
+		description: "",
+		price: "15k"
+	},
+	{
+		image: "sinhto/sinhto02.png",
+		title: "Sinh tố cam",
+		description: "",
+		price: "25k"
+	},
+	{
+		image: "sinhto/sinhto10.png",
+		title: "Xoài lắc",
+		description: "",
+		price: "15k"
 	},
 	{
 		image: "sinhto/sinhto16.JPG",
